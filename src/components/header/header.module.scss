@@ -1,0 +1,58 @@
+.sectionHeader {
+    background-color: #ece9e3;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.boxHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 40px;
+    gap: 10px;
+}
+.headerSearch{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+        
+    }
+    .headerSearch ul {
+        display: flex;
+        gap: 20px;
+        padding-bottom: 2px;
+      }
+      
+      .headerSearch ul li {
+        list-style: none;
+        font-size: 18px;
+        position: relative; 
+        cursor: pointer;
+        border-bottom: 2px solid transparent; 
+        transition: border-color 0.3s ease; 
+      }
+      
+      .headerSearch ul li:hover {
+        border-bottom-color: #ee4e16; /* Красная линия при наведении */
+      }
+      
+      .headerSearch button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 55px;
+        font-size: 16px;
+        background-color: #ee4e16;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .headerSearch button:hover{
+        background-color: #f85013;
+      }

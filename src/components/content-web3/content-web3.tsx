@@ -6,7 +6,7 @@ import styles from './content-web3.module.scss'
 
 export const ContentWeb3: React.FC = () => {
 
-    return <div className={styles.ContentWeb3}>
+    return <div className={styles.contentWeb3}>
         <div className={styles.container}>
             <div className={styles.web3Box}>
                 <div className={styles.web3BoxHeading}>

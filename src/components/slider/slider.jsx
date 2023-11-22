@@ -13,7 +13,18 @@ const SimpleSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-
+    appendDots: dots => (
+      <div
+        style={{
+          borderRadius: "10px",
+          padding: "10px",
+          bottom: "25px",
+          color: "#fff"
+        }}
+      >
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    )
     
   };
 
